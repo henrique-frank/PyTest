@@ -4,10 +4,14 @@ def test_hello():
 
 def test_fail():
     expected = "Hello World"
-    assert expected == "Hellso World", 'failed test internal'
+    assert expected == "Hello World", 'failed test internal'
 
 def test_a1():
-    assert 9/5 == 1.8, 'failed test internal'
+    print("This is my first test")
+    assert 5 + 5 == 0
+    assert 5 - 5 == 0
+    assert 5 * 5 == 25
+    assert 5 / 5 == 1
 
 def test_a2():
     assert 'a'in 'Santa', 'failed test internal'
